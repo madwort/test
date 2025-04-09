@@ -1,4 +1,4 @@
-name: Test branch handling (dev)
+name: Test branch handling (dev2)
 on:
   push:
     branches:
