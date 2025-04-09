@@ -1,0 +1,12 @@
+name: Test branch handling
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tag-new-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run something
+        run: echo "main"
